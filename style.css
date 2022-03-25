@@ -11,3 +11,9 @@ h1 {
   font-family: TimesNewRoman;
   font-size: 50px;
 }
+
+img {
+  width: 50%;
+  length: 50%;
+  text-align: center;
+}
