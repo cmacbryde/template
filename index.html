@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html>
-  <title> EN1 Simple Robotics </title>
-  <head>
+<html lang="en">
+<title> EN1 Simple Robotics </title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA=Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="https://th.bing.com/th/id/R.f8a3c3fed48e151cc44bacb0d3e2f158?rik=QgrgmqmrunaGTw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-6InUGfqmxYc%2fUs920tlTyeI%2fAAAAAAAAAiU%2fl8nShMiBBZA%2fs1600%2fRobot1.png&ehk=D6KeSYN8BzMVXv%2b%2fjIqU4BY3dyWf%2brUnNtaa1SuyPAA%3d&risl=&pid=ImgRaw&r=0" class="center">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 <body>
   
   <h1> EN1: Simple Robotics </h1>
   <img src="https://th.bing.com/th/id/R.47b21e24d7372267931fa01e9bd65812?rik=wTpIfS4HUxIHFQ&pid=ImgRaw&r=0" alt="Spike Prime Image">
   
-   <div class="wrapper">
-        <!--Top menu -->
-        <div class="sidebar">
-           <!--profile image & text-->
-            <!--menu item-->
-        </div>
-  </div>
-    <ul>
+  <div class="wrapper">
+    
+    <div class="sidebar">
+      <div class="profile">
+          <img src="https://s3-us-west-2.amazonaws.com/asset.plexuss.com/college/logos/Tufts_University.jpg" alt="logo">
+          <h2>Catherine MacBryde</h2>
+          <p>Tufts University</p>
+      </div>
+    
+     <ul>
                 <li>
                     <a href="#" class="active">
                         <span class="icon"><i class="fas fa-home"></i></span>
@@ -71,22 +72,23 @@
                     </a>
                 </li>
             </ul>
+    </div>
+    
+    <div class="section">
+      <div class="top_navbar">
+        <div class="hamburger">
+          <a href="#"><i class="fas fa-bars"</a>
+      </div>
+     </div>
+    </div>
+  </div>
   
-        <div class="section">
-            <div class="top_navbar">
-                <div class="hamburger">
-                    <a href="#">
-                        <i class="fas fa-bars"></i>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-  
-  var hamburger = document.querySelector(".hamburger");
+  <script>
+    var hamburger = document.querySelector(".hamburger");
     hamburger.addEventListener("click", function(){
         document.querySelector("body").classList.toggle("active");
     })
+  </script>
   
   
 </body>
